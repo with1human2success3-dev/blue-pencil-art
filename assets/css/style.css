@@ -206,12 +206,18 @@ body {
     border-bottom: 2px solid #e5e5e5;
 }
 
-.giscus-container {
+.utterances-container {
     margin-top: 1.5rem;
 }
 
-.giscus-container iframe {
+.utterances-container iframe {
     max-width: 100%;
+    min-height: 400px;
+}
+
+/* Utterances 한글 인터페이스 스타일 */
+.utterances-container .utterances {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
 
 /* Footer */
